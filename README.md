@@ -24,9 +24,7 @@ To run with supervisord:
 
     notify/bin/pip install supervisor
 
-
     notify/bin/supervisord -c supervisor.conf
-
 
     notify/bin/supervisorctl -c supervisor.conf
 
