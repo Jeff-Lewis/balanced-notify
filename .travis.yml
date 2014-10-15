@@ -1,0 +1,12 @@
+language: python
+python:
+  - 2.7
+install:
+  - pip install -I "blumpkin>=0.2.3"
+  - "pip install -e ."
+  - python setup.py develop
+script:
+  - ./tests.py
+services:
+  - riak     # will start riak
+
