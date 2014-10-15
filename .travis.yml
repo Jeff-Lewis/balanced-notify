@@ -8,5 +8,4 @@ install:
 script:
   - ./tests.py
 services:
-  - riak     # will start riak
-
+  - mongodb
