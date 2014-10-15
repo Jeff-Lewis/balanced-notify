@@ -1,6 +1,8 @@
 balanced-notify
 ===============
 
+[![Build Status](https://travis-ci.org/balanced/balanced-notify.svg)](https://travis-ci.org/balanced/balanced-notify)
+
 To install:
 
     python virtualenv.py notify/
