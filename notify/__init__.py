@@ -24,6 +24,7 @@ config = flask.config.Config(cwd, flask.Flask.default_config)
 config.from_object(app_name + '.settings')
 config.from_pyfile('settings.cfg', silent=True)
 if os.getenv(app_name.upper() + '_ENV'):
+    print 'got those setings'
     env = os.getenv(app_name.upper() + '_ENV')
     config.from_object(app_name + '.settings.' + env)
 
